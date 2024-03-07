@@ -63,7 +63,7 @@ int binsearch(int A[], int n, int x) {
         }
     }
 
-    /* assert(lo == hi); */
+    assert(lo == hi);
     return -lo - 1;  // need to return -1 to disambiguate
 }
 
