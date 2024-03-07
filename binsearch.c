@@ -43,8 +43,8 @@ int linsearch(int A[], int n, int x) {
  * @pre n >= 0
  * @post binsearch(A, n, x) == linsearch(A, n, x)
  */
-int binsearch(int A[], int n, int x) {
-    int lo = 0, hi = n, mid = 0; 
+int binsearch(int A[], int size, int x) {
+    int lo = 0, hi = size, mid = 0; 
     int idx = 0;
 
     while (lo < hi) {
