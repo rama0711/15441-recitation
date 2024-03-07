@@ -54,11 +54,11 @@ int binsearch(int A[], int n, int x) {
             return mid;
         }
 
-        if (A[mid] > x) {
+        if (A[mid] < x) {
             lo = mid+1;     // lo inclusive
         }
 
-        if (A[mid] < x) {
+        if (A[mid] > x) {
             hi = mid;       // exclusive
         }
     }
